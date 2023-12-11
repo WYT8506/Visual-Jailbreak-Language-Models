@@ -94,6 +94,7 @@ targets = []
 num = len(data)
 for i in range(num):
     targets.append(data[i][0])
+print(targets)
 
 
 my_attacker = visual_attacker.Attacker(args, model, targets, device=model.device, is_rtp=False)

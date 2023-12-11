@@ -1,0 +1,57 @@
+wandb_version: 1
+
+cfg_path:
+  desc: null
+  value: eval_configs/minigpt4_eval.yaml
+image_path:
+  desc: null
+  value: adversarial_images/prompt_unconstrained.bmp
+gpu_id:
+  desc: null
+  value: 0
+options:
+  desc: null
+  value: null
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.18
+    cli_version: 0.16.0
+    framework: huggingface
+    huggingface_version: 4.35.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1702064437.725738
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      - 71
+      - 105
+      2:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      - 71
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.18
+      5: 0.16.0
+      6: 4.35.2
+      8:
+      - 5
+      13: linux-x86_64

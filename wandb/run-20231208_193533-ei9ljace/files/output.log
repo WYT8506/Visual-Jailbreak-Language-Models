@@ -1,0 +1,10 @@
+
+######## Start Chatting ########
+Traceback (most recent call last):
+  File "/data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/minigpt_blackbox.py", line 145, in <module>
+    print("Iteration:",j)
+NameError: name 'j' is not defined
+Traceback (most recent call last):
+  File "/data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/minigpt_blackbox.py", line 145, in <module>
+    print("Iteration:",j)
+NameError: name 'j' is not defined

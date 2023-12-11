@@ -1,0 +1,196 @@
+2023-12-08 19:35:33,097 INFO    StreamThr :63228 [internal.py:wandb_internal():86] W&B internal server running at pid: 63228, started at: 2023-12-08 19:35:33.096267
+2023-12-08 19:35:33,097 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: status
+2023-12-08 19:35:33,104 INFO    WriterThread:63228 [datastore.py:open_for_write():85] open: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/run-ei9ljace.wandb
+2023-12-08 19:35:33,105 DEBUG   SenderThread:63228 [sender.py:send():380] send: header
+2023-12-08 19:35:33,164 DEBUG   SenderThread:63228 [sender.py:send():380] send: run
+2023-12-08 19:35:33,527 INFO    SenderThread:63228 [dir_watcher.py:__init__():211] watching files in: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files
+2023-12-08 19:35:33,527 INFO    SenderThread:63228 [sender.py:_start_run_threads():1124] run started: ei9ljace with start time 1702064133.098983
+2023-12-08 19:35:33,534 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: check_version
+2023-12-08 19:35:33,534 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: check_version
+2023-12-08 19:35:33,584 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: run_start
+2023-12-08 19:35:33,594 DEBUG   HandlerThread:63228 [system_info.py:__init__():32] System info init
+2023-12-08 19:35:33,594 DEBUG   HandlerThread:63228 [system_info.py:__init__():47] System info init done
+2023-12-08 19:35:33,595 INFO    HandlerThread:63228 [system_monitor.py:start():194] Starting system monitor
+2023-12-08 19:35:33,595 INFO    SystemMonitor:63228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-08 19:35:33,595 INFO    HandlerThread:63228 [system_monitor.py:probe():214] Collecting system info
+2023-12-08 19:35:33,595 INFO    SystemMonitor:63228 [interfaces.py:start():190] Started cpu monitoring
+2023-12-08 19:35:33,596 INFO    SystemMonitor:63228 [interfaces.py:start():190] Started disk monitoring
+2023-12-08 19:35:33,598 INFO    SystemMonitor:63228 [interfaces.py:start():190] Started gpu monitoring
+2023-12-08 19:35:33,600 INFO    SystemMonitor:63228 [interfaces.py:start():190] Started memory monitoring
+2023-12-08 19:35:33,601 INFO    SystemMonitor:63228 [interfaces.py:start():190] Started network monitoring
+2023-12-08 19:35:33,624 DEBUG   HandlerThread:63228 [system_info.py:probe():196] Probing system
+2023-12-08 19:35:33,638 DEBUG   HandlerThread:63228 [system_info.py:_probe_git():181] Probing git
+2023-12-08 19:35:33,654 DEBUG   HandlerThread:63228 [system_info.py:_probe_git():189] Probing git done
+2023-12-08 19:35:33,654 DEBUG   HandlerThread:63228 [system_info.py:probe():244] Probing system done
+2023-12-08 19:35:33,654 DEBUG   HandlerThread:63228 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.83.1.0.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.9.18', 'heartbeatAt': '2023-12-08T19:35:33.624481', 'startedAt': '2023-12-08T19:35:33.080131', 'docker': None, 'cuda': None, 'args': ('--cfg-path', 'eval_configs/minigpt4_eval.yaml', '--gpu-id', '0', '--image_path', 'adversarial_images/prompt_unconstrained.bmp'), 'state': 'running', 'program': '/data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/minigpt_blackbox.py', 'codePathLocal': 'minigpt_blackbox.py', 'codePath': 'minigpt_blackbox.py', 'git': {'remote': 'https://github.com/WYT8506/Visual-Jailbreak-Language-Models.git', 'commit': '18f9b37f92b2090531c796f7d0f0592727860c20'}, 'email': 'chrguo@ucdavis.edu', 'root': '/data/wenbo_guo/projects/Visual-Jailbreak-Language-Models', 'host': 'compute-permanent-node-891', 'username': 'wenbo_guo', 'executable': '/data/wenbo_guo/miniconda3/envs/minigpt4/bin/python', 'cpu_count': 128, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, 'cpu_freq_per_core': [{'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}, {'current': 2550.0, 'min': 1500.0, 'max': 2550.0}], 'disk': {'/': {'total': 91.78495407104492, 'used': 75.93133926391602}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 2015.4624061584473}}
+2023-12-08 19:35:33,654 INFO    HandlerThread:63228 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-08 19:35:33,654 INFO    HandlerThread:63228 [system_monitor.py:probe():227] Publishing system info
+2023-12-08 19:35:33,654 DEBUG   HandlerThread:63228 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-08 19:35:33,656 DEBUG   HandlerThread:63228 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-08 19:35:33,656 DEBUG   HandlerThread:63228 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-08 19:35:34,529 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_created():271] file/dir created: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/conda-environment.yaml
+2023-12-08 19:35:34,529 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_created():271] file/dir created: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/requirements.txt
+2023-12-08 19:35:38,209 DEBUG   HandlerThread:63228 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-08 19:35:38,211 INFO    HandlerThread:63228 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-08 19:35:38,219 DEBUG   SenderThread:63228 [sender.py:send():380] send: files
+2023-12-08 19:35:38,219 INFO    SenderThread:63228 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-08 19:35:38,219 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 19:35:38,246 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-08 19:35:38,247 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: stop_status
+2023-12-08 19:35:38,248 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 19:35:38,406 DEBUG   SenderThread:63228 [sender.py:send():380] send: telemetry
+2023-12-08 19:35:38,532 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/conda-environment.yaml
+2023-12-08 19:35:38,533 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_created():271] file/dir created: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/wandb-metadata.json
+2023-12-08 19:35:38,583 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-08 19:35:38,583 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: log_artifact
+2023-12-08 19:35:38,608 INFO    wandb-upload_0:63228 [upload_job.py:push():131] Uploaded file /tmp/tmpb5x3kl_7wandb/cli2btce-wandb-metadata.json
+2023-12-08 19:35:39,626 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 19:35:39,675 INFO    wandb-upload_0:63228 [upload_job.py:push():89] Uploaded file /data/wenbo_guo/.local/share/wandb/artifacts/staging/tmpqayea64v
+2023-12-08 19:35:40,335 INFO    SenderThread:63228 [sender.py:send_request_log_artifact():1446] logged artifact source-poison_result-minigpt_blackbox.py - {'id': 'QXJ0aWZhY3Q6NjYxNzc3ODA3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMTQ2ODU4MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjU5NTg4OTAx', 'versionIndex': 0}}}
+2023-12-08 19:35:40,337 DEBUG   SenderThread:63228 [sender.py:send():380] send: exit
+2023-12-08 19:35:40,337 INFO    SenderThread:63228 [sender.py:send_exit():585] handling exit code: 1
+2023-12-08 19:35:40,337 INFO    SenderThread:63228 [sender.py:send_exit():587] handling runtime: 5
+2023-12-08 19:35:40,338 INFO    SenderThread:63228 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 19:35:40,338 INFO    SenderThread:63228 [sender.py:send_exit():593] send defer
+2023-12-08 19:35:40,338 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: poll_exit
+2023-12-08 19:35:40,338 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,338 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-08 19:35:40,338 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,338 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-08 19:35:40,338 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 1
+2023-12-08 19:35:40,339 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,339 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-08 19:35:40,339 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,339 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-08 19:35:40,339 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 2
+2023-12-08 19:35:40,339 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,339 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-08 19:35:40,339 INFO    HandlerThread:63228 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-08 19:35:40,339 DEBUG   SystemMonitor:63228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-08 19:35:40,339 DEBUG   SystemMonitor:63228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-08 19:35:40,339 DEBUG   SystemMonitor:63228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-08 19:35:40,339 INFO    HandlerThread:63228 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-08 19:35:40,342 INFO    HandlerThread:63228 [interfaces.py:finish():202] Joined disk monitor
+2023-12-08 19:35:40,520 INFO    HandlerThread:63228 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-08 19:35:40,520 INFO    HandlerThread:63228 [interfaces.py:finish():202] Joined memory monitor
+2023-12-08 19:35:40,520 INFO    HandlerThread:63228 [interfaces.py:finish():202] Joined network monitor
+2023-12-08 19:35:40,520 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,520 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-08 19:35:40,520 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 3
+2023-12-08 19:35:40,521 DEBUG   SenderThread:63228 [sender.py:send():380] send: stats
+2023-12-08 19:35:40,521 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,521 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-08 19:35:40,521 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,521 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-08 19:35:40,521 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 4
+2023-12-08 19:35:40,521 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,521 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-08 19:35:40,521 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,521 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-08 19:35:40,522 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 5
+2023-12-08 19:35:40,522 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,522 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-08 19:35:40,522 DEBUG   SenderThread:63228 [sender.py:send():380] send: summary
+2023-12-08 19:35:40,523 INFO    SenderThread:63228 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-08 19:35:40,523 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,523 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-08 19:35:40,523 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 6
+2023-12-08 19:35:40,523 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,523 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-08 19:35:40,523 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,523 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-08 19:35:40,527 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: status_report
+2023-12-08 19:35:40,535 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_created():271] file/dir created: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/output.log
+2023-12-08 19:35:40,535 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_created():271] file/dir created: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/wandb-summary.json
+2023-12-08 19:35:40,626 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 19:35:40,700 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 7
+2023-12-08 19:35:40,700 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: poll_exit
+2023-12-08 19:35:40,700 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:40,700 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-08 19:35:40,701 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:40,701 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-08 19:35:41,536 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/config.yaml
+2023-12-08 19:35:41,628 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 19:35:42,340 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 8
+2023-12-08 19:35:42,340 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: poll_exit
+2023-12-08 19:35:42,340 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:42,340 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-08 19:35:42,341 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:42,341 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-08 19:35:42,341 INFO    SenderThread:63228 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-08 19:35:42,341 INFO    SenderThread:63228 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-12-08 19:35:42,342 INFO    SenderThread:63228 [job_builder.py:build():404] adding wandb-job metadata file
+2023-12-08 19:35:42,369 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 9
+2023-12-08 19:35:42,369 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:42,369 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-08 19:35:42,369 DEBUG   SenderThread:63228 [sender.py:send():380] send: artifact
+2023-12-08 19:35:42,537 INFO    Thread-12 :63228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/output.log
+2023-12-08 19:35:42,629 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 19:35:43,195 INFO    wandb-upload_0:63228 [upload_job.py:push():89] Uploaded file /data/wenbo_guo/.local/share/wandb/artifacts/staging/tmp7ti9c53v
+2023-12-08 19:35:43,197 INFO    wandb-upload_1:63228 [upload_job.py:push():89] Uploaded file /data/wenbo_guo/.local/share/wandb/artifacts/staging/tmpt9zm65xt
+2023-12-08 19:35:43,992 INFO    SenderThread:63228 [sender.py:send_artifact():1458] sent artifact job-https___github.com_WYT8506_Visual-Jailbreak-Language-Models.git_minigpt_blackbox.py - {'id': 'QXJ0aWZhY3Q6NjYxNzc3ODU3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyMjAyMzA2Mw==', 'latestArtifact': None}}
+2023-12-08 19:35:43,992 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:43,992 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-08 19:35:43,993 INFO    SenderThread:63228 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-08 19:35:44,539 INFO    SenderThread:63228 [dir_watcher.py:finish():388] scan: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files
+2023-12-08 19:35:44,539 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/conda-environment.yaml conda-environment.yaml
+2023-12-08 19:35:44,539 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/requirements.txt requirements.txt
+2023-12-08 19:35:44,539 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/wandb-metadata.json wandb-metadata.json
+2023-12-08 19:35:44,541 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/wandb-summary.json wandb-summary.json
+2023-12-08 19:35:44,542 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/config.yaml config.yaml
+2023-12-08 19:35:44,542 INFO    SenderThread:63228 [dir_watcher.py:finish():402] scan save: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/output.log output.log
+2023-12-08 19:35:44,545 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 10
+2023-12-08 19:35:44,546 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: poll_exit
+2023-12-08 19:35:44,546 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:44,546 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-08 19:35:44,548 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:44,548 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-08 19:35:44,548 INFO    SenderThread:63228 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-08 19:35:44,875 INFO    wandb-upload_0:63228 [upload_job.py:push():131] Uploaded file /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/conda-environment.yaml
+2023-12-08 19:35:44,904 INFO    wandb-upload_2:63228 [upload_job.py:push():131] Uploaded file /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/wandb-summary.json
+2023-12-08 19:35:44,942 INFO    wandb-upload_3:63228 [upload_job.py:push():131] Uploaded file /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/config.yaml
+2023-12-08 19:35:44,945 INFO    wandb-upload_4:63228 [upload_job.py:push():131] Uploaded file /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/output.log
+2023-12-08 19:35:44,954 INFO    wandb-upload_1:63228 [upload_job.py:push():131] Uploaded file /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/files/requirements.txt
+2023-12-08 19:35:45,154 INFO    Thread-11 :63228 [sender.py:transition_state():613] send defer: 11
+2023-12-08 19:35:45,155 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:45,155 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-08 19:35:45,155 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:45,155 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-08 19:35:45,155 INFO    SenderThread:63228 [file_pusher.py:join():181] waiting for file pusher
+2023-12-08 19:35:45,155 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 12
+2023-12-08 19:35:45,155 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:45,155 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-08 19:35:45,156 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:45,156 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-08 19:35:45,156 INFO    SenderThread:63228 [file_stream.py:finish():595] file stream finish called
+2023-12-08 19:35:45,263 INFO    SenderThread:63228 [file_stream.py:finish():599] file stream finish is done
+2023-12-08 19:35:45,264 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 13
+2023-12-08 19:35:45,264 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:45,264 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-08 19:35:45,264 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:45,264 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-08 19:35:45,264 INFO    SenderThread:63228 [sender.py:transition_state():613] send defer: 14
+2023-12-08 19:35:45,264 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: defer
+2023-12-08 19:35:45,264 DEBUG   SenderThread:63228 [sender.py:send():380] send: final
+2023-12-08 19:35:45,264 INFO    HandlerThread:63228 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-08 19:35:45,264 DEBUG   SenderThread:63228 [sender.py:send():380] send: footer
+2023-12-08 19:35:45,264 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: defer
+2023-12-08 19:35:45,265 INFO    SenderThread:63228 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-08 19:35:45,265 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-08 19:35:45,265 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: poll_exit
+2023-12-08 19:35:45,265 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: server_info
+2023-12-08 19:35:45,266 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: server_info
+2023-12-08 19:35:45,267 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-08 19:35:45,267 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-08 19:35:45,267 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-08 19:35:45,268 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: job_info
+2023-12-08 19:35:45,333 DEBUG   SenderThread:63228 [sender.py:send_request():407] send_request: job_info
+2023-12-08 19:35:45,333 INFO    MainThread:63228 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-12-08 19:35:45,333 INFO    MainThread:63228 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-12-08 19:35:45,334 INFO    MainThread:63228 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-12-08 19:35:45,334 DEBUG   HandlerThread:63228 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-08 19:35:45,334 INFO    HandlerThread:63228 [handler.py:finish():866] shutting down handler
+2023-12-08 19:35:46,269 INFO    WriterThread:63228 [datastore.py:close():294] close: /data/wenbo_guo/projects/Visual-Jailbreak-Language-Models/wandb/run-20231208_193533-ei9ljace/run-ei9ljace.wandb
+2023-12-08 19:35:46,333 INFO    SenderThread:63228 [sender.py:finish():1536] shutting down sender
+2023-12-08 19:35:46,333 INFO    SenderThread:63228 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-08 19:35:46,333 INFO    SenderThread:63228 [file_pusher.py:join():181] waiting for file pusher
